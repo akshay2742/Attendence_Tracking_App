@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namesubject"
+        android:hint="Enter Subject Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/attended"
+        android:hint="Classes Attended"
+        android:layout_below="@+id/namesubject"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tattended"
+        android:hint="Total Classes"
+        android:layout_below="@+id/attended"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>

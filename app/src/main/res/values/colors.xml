@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#23283a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink">#fe104d</color>
+    <color name="grey">#E0DFDB</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="orange">#eead43</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="screen2">#00E676</color>
+    <color name="screen3">#FF5722</color>
+    <color name="screen4">#607D8B</color>
+</resources>

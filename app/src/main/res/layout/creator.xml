@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".creator">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="405dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/profile_bac"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/image"
+                android:background="@drawable/image"
+                android:layout_gravity="center"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AKSHAY SHARMA"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/facebook"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:id="@+id/linkedin"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/github"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/github"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+            <TextView
+                android:id="@+id/mail"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="akshays274@gmail.com"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_local_phone_black_24dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/phn"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="+91 9639064985"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

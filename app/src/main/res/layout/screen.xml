@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/log"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"/>
+
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="Log In"
+            android:id="@+id/buttonq"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylesign"
+            android:text="Sign Up"
+            android:id="@+id/buttons"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+</LinearLayout>
